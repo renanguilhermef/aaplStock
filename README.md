@@ -6,7 +6,7 @@ Script works on both OS (Linux / Windows). It's necessary to have:
   	-  Linux: https://docs.oracle.com/en/database/oracle/oracle-database/21/lacli/install-instant-client-using-rpm.html
   - Oracle database
  
- Install required modules in your venv
+ Install required modules in your env
  
  	python3 -m pip install -r requirements.txt
 # pre-execution
