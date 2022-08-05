@@ -1,7 +1,9 @@
 # Requirements
 Script works on both OS (Linux / Windows). It's necessary to have:
   - Python3 and pip module 
-  - Oracle instant client. Download according with your OS: https://www.oracle.com/br/database/technologies/instant-client/downloads.html
+  - Oracle instant client. Download according with your OS:
+  	-  Windows: https://www.oracle.com/br/database/technologies/instant-client/downloads.html
+  	-  Linux: https://docs.oracle.com/en/database/oracle/oracle-database/21/lacli/install-instant-client-using-rpm.html
   - Oracle database
  
  Install required modules
