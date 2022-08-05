@@ -1,4 +1,5 @@
 ---
-username: admin 
-password: Renan_123456
-tns_alias: aapldb_high
+username: admin                         #username to connect on the database
+password: Renan_123456                  #password to connect on the database 
+client: /opt/oracle/instantclient_21_7  #client
+connection: aapldb_high                 #tns alias / easy connection 
