@@ -13,8 +13,8 @@ go to db/db_params.yml and fill up with desired database to connect
 
   - Username: user to connect on the database
   - Password: database user password
-  - Client: Oracle Instant Client path
-  - Connection: your oracle database connection string. Recommended: Set your TNS configuration to the Oracle instant client path.
+  - oracle_lib: Oracle Instant Client path with oracle libraries
+  - Connection: your oracle database connection string. Set your TNS configuration to the Oracle instant client path on <ORACLE_INSTANT_CLIENT>/network/admin.
 	- Types: TNS alias, TNS string or Easy connection
 	
 	
