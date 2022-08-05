@@ -12,7 +12,7 @@ class oracle:
         try:
             with open(os.path.join(sys.path[0], "db/db_params.yaml"), "r") as yaml_file: 
                 params = yaml.full_load(yaml_file)
-            cx_Oracle.init_oracle_client(lib_dir=params["client"])
+            cx_Oracle.init_oracle_client(lib_dir=params["oracle_client_lib"])
             self.conn= cx_Oracle.connect(user=params["username"], 
                                          password=params["password"],
                                          dsn=params["connection"])
