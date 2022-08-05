@@ -1,7 +1,7 @@
 # Requirements
 Script works on both OS (Linux / Windows). It's necessary to have:
   - Python3 and pip module 
-  - Oracle basic instant client. Download according with your OS:
+  - Oracle instant client. Download according with your OS:
   	-  https://www.oracle.com/br/database/technologies/instant-client/downloads.html
   - Oracle database
  
@@ -13,7 +13,7 @@ go to db/db_params.yml and fill up with desired database to connect
 
   - Username: user to connect on the database
   - Password: database user password
-  - oracle_lib: set Oracle Basic Instant Client path
+  - oracle_lib: set Oracle Instant Client path
   - Connection: your oracle database connection string. Set your TNS configuration to the Oracle instant client path on <ORACLE_INSTANT_CLIENT>/network/admin.
 	- Types: TNS alias, TNS string or Easy connection
 	
