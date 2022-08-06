@@ -30,6 +30,6 @@ go to db/db_params.yml and fill up with desired database to connect
 		
 				connection: <hostname>:<port>/<service_name>
 # Execute
-In your prefered command line, run :
+On the script folder, in your prefered command line, run :
 
 	python3 aapl_stocks_report.py
