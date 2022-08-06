@@ -1,5 +1,5 @@
 ---
 username: admin                                    #username to connect on the database
 password: Renan_123456                             #password to connect on the database 
-oracle_client_lib: /usr/lib/oracle/21/client64/lib #Oracle client library
+oracle_lib: /usr/lib/oracle/21/client64/lib        #Oracle client library
 connection: aapldb_high                            #tns alias / easy connection 

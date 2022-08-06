@@ -12,7 +12,7 @@ class oracle:
         try:
             with open(os.path.join(sys.path[0], "db/db_params.yaml"), "r") as yaml_file: 
                 params = yaml.full_load(yaml_file)
-            cx_Oracle.init_oracle_client(lib_dir=params["oracle_client_lib"])
+            cx_Oracle.init_oracle_client(lib_dir=params["oracle_lib"])
             self.conn= cx_Oracle.connect(user=params["username"], 
                                          password=params["password"],
                                          dsn=params["connection"])
@@ -60,6 +60,6 @@ class oracle:
     
     def sqlQueryDataFrame(self):
         warnings.simplefilter(action='ignore')
-        query = """SELECT STOCK_DATE as Stock_Date, STOCK_HIGH as Best_Stock_Day, STOCK_LOW as Worst_Stock_Day FROM AAPL_STOCKS"""
+        query = """SELECT STOCK_DATE as Stock_Date, STOCK_HIGH as Best_Stock_Day, STOCK_LOW as Worst_Stock_Day FROM AAPL_STOCKS ORDER BY STOCK_DATE DESC"""
         df = pd.read_sql(query, con=self.conn)
         return df 
