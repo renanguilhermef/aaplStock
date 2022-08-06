@@ -1,7 +1,7 @@
 # Requirements
 Script works on both OS (Linux / Windows). It's necessary to have:
   - Python3 and pip module 
-  - Oracle instant client. Download according with your OS:
+  - Oracle instant client with oracle libraries. Download according with your OS:
   	-  https://www.oracle.com/br/database/technologies/instant-client/downloads.html
   - Oracle database
  
