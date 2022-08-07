@@ -8,7 +8,11 @@ Script works on both OS (Linux / Windows). It's necessary to have:
  Install required modules in your env
  
  	python3 -m pip install -r requirements.txt
-# pre-execution
+# steps
+Clone repository
+```bash
+https://github.com/renanguilhermef/aaplStock.git
+```
 go to db/db_params.yml and fill up with desired database to connect
 
   - Username: user to connect on the database
@@ -29,7 +33,7 @@ go to db/db_params.yml and fill up with desired database to connect
 		Easy connection:
 		
 				connection: <hostname>:<port>/<service_name>
-# Execute
+
 On the script folder, in your prefered command line, run :
 
 	python3 aapl_stocks_report.py
